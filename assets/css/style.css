@@ -1,0 +1,44 @@
+*{
+    margin: 0 !important; /* Da borda para fora */
+    padding: 0 !important; /* Da borda para dentro */
+
+}
+
+.link {
+    color: purple !important;
+    text-decoration: none;
+}
+
+.d-none{
+    display: none;
+}
+
+.menu{
+    padding: 10px !important;
+}
+
+.menu__menu-mobile {
+    display: flex;   
+    justify-content: space-between;
+
+}
+
+.menu__menu-mobile__icon-menu button {
+    border: 0 !important;
+    background-color: transparent;
+    color: #4b4b4b;
+}
+
+.menu__menu-mobile__{
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    top: 45px;
+    background-color: #c4c4c4;
+    height: calc(100vh - 50px);
+    transition: all is ease-out;
+}
+
+.menu__menu-mobile__close{
+    left: -150px;
+}

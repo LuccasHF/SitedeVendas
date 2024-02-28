@@ -34,11 +34,24 @@
     position: absolute;
     left: 0px;
     top: 45px;
-    background-color: #c4c4c4;
+    background-color: #fff;
     height: calc(100vh - 50px);
-    transition: all is ease-out;
+    transition: all ls ease-out;
 }
 
 .menu__menu-mobile__close{
-    left: -150px;
+    left: -200px;
+}
+
+.menu__menu-mobile__list {
+    padding: 20px 10px !important;
+}
+
+.menu__menu-mobile__item{
+    list-style: none;
+    line-height: 32px;
+}
+
+.menu__menu-mobile__link{
+
 }

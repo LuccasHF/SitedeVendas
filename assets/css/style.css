@@ -1,11 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 *{
-    margin: 0 !important; /* Da borda para fora */
-    padding: 0 !important; /* Da borda para dentro */
+    margin: 0 !important;
+    padding: 0 !important;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
 
 }
 
-.link {
-    color: purple !important;
+.link{
+    color: #5d5d5d !important;
     text-decoration: none;
 }
 
@@ -17,13 +22,12 @@
     padding: 10px !important;
 }
 
-.menu__menu-mobile {
-    display: flex;   
+.menu__menu-mobile{
+    display: flex;
     justify-content: space-between;
-
 }
 
-.menu__menu-mobile__icon-menu button {
+.menu__menu-mobile__icon-menu button{
     border: 0 !important;
     background-color: transparent;
     color: #4b4b4b;
@@ -32,18 +36,18 @@
 .menu__menu-mobile__{
     width: 100%;
     position: absolute;
-    left: 0px;
-    top: 45px;
+    left: 7px;
+    top: 28px;
     background-color: #fff;
-    height: calc(100vh - 50px);
-    transition: all ls ease-out;
+    height: calc(100vh - 46px);
+    transition: all 1s ease-out;
 }
 
 .menu__menu-mobile__close{
-    left: -200px;
+    left: -290px;
 }
 
-.menu__menu-mobile__list {
+.menu__menu-mobile__list{
     padding: 20px 10px !important;
 }
 
@@ -52,6 +56,6 @@
     line-height: 32px;
 }
 
-.menu__menu-mobile__link{
+/*.menu__menu-mobile__link link{
 
 }
